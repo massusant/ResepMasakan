@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="1dp">
+
+    <ImageView
+        android:id="@+id/video_thumbnail"
+        android:layout_width="128dp"
+        android:layout_height="96dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/common_ic_googleplayservices"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="20dp" />
+
+    <TextView
+        android:id="@+id/video_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:text="ada anak singkong"
+        android:layout_toRightOf="@+id/video_thumbnail"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif-condensed"/>
+
+</RelativeLayout>
